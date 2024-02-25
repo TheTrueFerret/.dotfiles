@@ -9,20 +9,13 @@
       "alignment": "left",
       "segments": [
         {
-          "type": "session",
-          "style": "diamond",
-          "foreground": "p:black",
-          "background": "p:yellow",
-          "leading_diamond": "\ue0b6",
-          "trailing_diamond": "\ue0b0",
-          "template": " {{ if .SSHSession }}\ueba9 {{ end }}{{ .UserName }} "
-        },
-        {
           "type": "path",
-          "style": "powerline",
+          "style": "diamond",
           "powerline_symbol": "\ue0b0",
           "foreground": "p:white",
           "background": "p:orange",
+          "leading_diamond": "\ue0b6",
+          "trailing_diamond": "\ue0b0",
           "template": " \uea83 {{ path .Path .Location }} ",
           "properties": {
             "style": "folder"
