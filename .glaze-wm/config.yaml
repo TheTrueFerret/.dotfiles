@@ -198,7 +198,7 @@ window_rules:
   # Some applications (eg. Steam) have borders that extend past the normal border size.
   - command: "resize borders 0px -7px -7px -7px"
     match_process_name: "steam"
-  - command: "resize borders 0px -7px -7px -7px"
+  - command: "resize borders -1px -7px -7px -7px"
     match_process_name: "vivaldi"
   - command: "resize borders 0px -7px -7px -7px"
     match_title: "/Chatterino*/" # Chatterino
