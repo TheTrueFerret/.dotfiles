@@ -251,14 +251,13 @@ window_rules:
   - command: "ignore"
     match_class_name: "WinLister" # WinLister
 
-  - command: "ignore"
-    match_class_name: "CabinetWClass" # File Explorer
-
-
 
   # floating the windows you don't want to align to the grid
   - command: "toggle floating"
     match_class_name: "FM" # 7-Zip
+
+  - command: "toggle floating"
+    match_class_name: "CabinetWClass" # File Explorer
 
   - command: "toggle floating"
     match_title: "Google Keep"
