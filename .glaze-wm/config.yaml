@@ -131,44 +131,49 @@ workspaces:
   # Browser
   - name: "1"
     display_name: "1-Browser"
+    bind_to_monitor: 1
     keep_alive: true
 
   # Organizing
   - name: "2"
     display_name: "2-Organizing"
+    bind_to_monitor: 1
     keep_alive: true
 
   # Coding (the code with another browser window)
   - name: "3"
-    display_name: "3-Coding"
+    display_name: "3"
+    bind_to_monitor: 1
     keep_alive: true
 
   # Video Editing
   - name: "4"
-    display_name: "4-Video-Editing"
-    bind_to_monitor: 4
+    display_name: "4"
+    bind_to_monitor: 1
     keep_alive: true
 
   # Stream
   - name: "5"
-    display_name: "5-Stream"
-    bind_to_monitor: 4
+    display_name: "5"
+    bind_to_monitor: 1
     keep_alive: true
 
   # Podcasts
   - name: "6"
-    display_name: "6-Podcasts"
+    display_name: "6-Browser"
+    bind_to_monitor: 3
     keep_alive: true
 
   # Communication
   - name: "7"
     display_name: "7-Communication"
+    bind_to_monitor: 3
     keep_alive: true
 
   # Vertical Streaming
   - name: "8"
     display_name: "8-Vertical"
-    bind_to_monitor: 3
+    bind_to_monitor: 4
     keep_alive: true
 
   # TV
@@ -285,23 +290,23 @@ binding_modes:
 keybindings:
   # Shift focus in a given direction.
   - command: "focus left"
-    bindings: ["Alt+J", "Alt+Left"]
+    bindings: ["Alt+L", "Alt+Left"]
   - command: "focus right"
-    bindings: ["Alt+L", "Alt+Right"]
+    bindings: ["Alt+H", "Alt+Right"]
   - command: "focus up"
-    bindings: ["Alt+I", "Alt+Up"]
+    bindings: ["Alt+K", "Alt+Up"]
   - command: "focus down"
-    bindings: ["Alt+K", "Alt+Down"]
+    bindings: ["Alt+J", "Alt+Down"]
 
   # Move focused window in a given direction.
   - command: "move left"
-    bindings: ["Alt+Shift+J", "Alt+Shift+Left"]
+    bindings: ["Alt+Shift+L", "Alt+Shift+Left"]
   - command: "move right"
-    bindings: ["Alt+Shift+L", "Alt+Shift+Right"]
+    bindings: ["Alt+Shift+H", "Alt+Shift+Right"]
   - command: "move up"
-    bindings: ["Alt+Shift+I", "Alt+Shift+Up"]
+    bindings: ["Alt+Shift+K", "Alt+Shift+Up"]
   - command: "move down"
-    bindings: ["Alt+Shift+K", "Alt+Shift+Down"]
+    bindings: ["Alt+Shift+J", "Alt+Shift+Down"]
 
   # Resize focused window by a percentage or pixel amount.
   - command: "resize width -2%"
@@ -309,22 +314,22 @@ keybindings:
   - command: "resize width +2%"
     binding: "Alt+P"
   - command: "resize height +2%"
-    binding: "Alt+I"
-  - command: "resize height -2%"
     binding: "Alt+U"
+  - command: "resize height -2%"
+    binding: "Alt+I"
 
   # As an alternative to the resize keybindings above, resize mode enables resizing via
   # HJKL or arrow keys. The binding mode is defined above with the name "resize".
-  - command: "binding mode resize"
-    binding: "Alt+R"
+  #- command: "binding mode resize"
+  #  binding: ""
 
   # Change tiling direction. This determines where new tiling windows will be inserted.
   - command: "tiling direction toggle"
     binding: "Alt+V"
 
   # Change focus between floating / tiling windows.
-  - command: "focus mode toggle"
-    binding: "Alt+Space"
+  #- command: "focus mode toggle"
+  #  binding: ""
 
   # Change the focused window to be floating / tiling.
   - command: "toggle floating"
@@ -351,9 +356,9 @@ keybindings:
     binding: "Alt+Shift+R"
 
   # Launch CMD terminal (alternatively `exec wt` or `exec %ProgramFiles%/Git/git-bash.exe`
-  # to start Windows Terminal and Git Bash respectively.
+  # to start Windows Terminal and Git Bash respectively. 
   - command: "exec cmd"
-    binding: "Alt+Enter"
+    binding: "Ctrl+Alt+Enter"
 
   # Focus the workspace that last had focus.
   - command: "focus workspace recent"
