@@ -35,7 +35,7 @@
           "style": "plain",
           "foreground": "p:terminal-magenta",
           "properties": {
-            "style": "folder"
+            "style": "full"
           },
           "template": "<b>{{ .Path }}</b> <p:light-sky-blue>\u26a1</>"
         },
