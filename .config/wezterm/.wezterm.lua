@@ -3,7 +3,8 @@ local wezterm = require 'wezterm'
 local config = wezterm.config_builder()
 
 
-config.color_scheme = 'carbonfox'
+-- config.color_scheme = 'carbonfox'
+config.color_scheme = 'Tokyo Night'
 config.font = wezterm.font('JetBrains Mono NL')
 config.font_size = 16
 
