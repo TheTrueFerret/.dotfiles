@@ -1,6 +1,9 @@
 {
-  "$schema": "https://github.com/glzr-io/zebar/raw/v2.1.0/resources/settings-schema.json",
+  "$schema": "https://github.com/glzr-io/zebar/raw/v2.4.0/resources/settings-schema.json",
   "startupConfigs": [
-    "tokyonight/tokyonight.zebar.json"
+    {
+      "path": "tokyonight/tokyonight.zebar.json",
+      "preset": "tokyonight"
+    }
   ]
 }

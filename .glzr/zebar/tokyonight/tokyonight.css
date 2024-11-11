@@ -16,7 +16,8 @@
     --bright-green: #73daca;
     --bright-yellow: #ff9e64;
     --bright-blue: #2ac3de;
-    --bright-magenta: #ff007c;
+    --bright-magenta: #ff3195;
+    --offwhite-magenta: #b6527c;
     --bright-cyan: #89ddff;
     --bright-white: #c0caf5;
 }
@@ -79,7 +80,7 @@ body,
 }
 
 .workspace {
-  background-color: var(--black);
+  background-color: var(--offwhite-magenta);
   color: var(--bright-white);
   font-size: 10px;
   margin-right: 7px;
@@ -95,7 +96,7 @@ body,
 
   &.focused,
   &:hover {
-    background: var(--blue);
+    background: var(--bright-magenta);
     color: transparent;
   }
 }

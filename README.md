@@ -1,7 +1,35 @@
-# dotfiles
-my dotfiles
+# .dotfiles
+### TrueFerret's dotfiles for Windows 11
+> "yes it is called .dotfiles <3"
 
-inside my dotfiles i have a config for glaze window manager
-it is a very handy tool to manage the windows on windows haha
 
-also i have a vivaldi profile
+## Theme: **Tokyo Night**
+everything inside this dotfile is in the Theme **Tokyo Night**.
+
+#### Quick Showcase:
+IMG's
+
+## Window Manager: **GlazeWM** and **Zebar**
+I turn the default windows taskbar to automatically hide, some people like it turned of permenantly but this is fine for me...
+
+I have 2 GlazeWM configs: one for my laptop, one for my desktop.
+Because my laptop only has 1 monitor
+and there are differences in the config because of it.
+
+## Wezterm Config:
+tbh i just copied someone else's Wezterm config from a youtube video.
+[Click here <3](https://www.youtube.com/watch?v=V1X4WQTaxrc)
+
+And i just used a Tokyo Night Theme
+
+## Apps i use:
+- Zen-Browser (Used to be ARC)
+- Wezterm
+- Spicetify
+- Vencord
+- Obsidian
+- Notion
+- Notion Calendar
+- Davinci Resolve
+- Jetbrains IDE's
+- Visual Studio Code

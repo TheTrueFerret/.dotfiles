@@ -1,0 +1,12 @@
+/*Custom Image*/
+@-moz-document url-prefix(about:home), url-prefix(about:newtab) {
+    .click-target-container *, .top-sites-list * {
+        color: #fff !important ;
+        text-shadow: 2px 2px 2px #000 !important ;
+    }
+
+    body {
+        background: url(wallhaven-85q5pj_2560x1440.png) !important ;
+        background-size: cover !important ;
+    }
+}
