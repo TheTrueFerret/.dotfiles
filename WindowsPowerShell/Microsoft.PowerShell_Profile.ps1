@@ -1,5 +1,4 @@
-﻿
-# Import the Chocolatey Profile that contains the necessary code to enable
+﻿# Import the Chocolatey Profile that contains the necessary code to enable
 # tab-completions to function for `choco`.
 # Be aware that if you are missing these lines from your profile, tab completion
 # for `choco` will not function.
@@ -9,5 +8,7 @@ if (Test-Path($ChocolateyProfile)) {
   Import-Module "$ChocolateyProfile"
 }
 
+oh-my-posh init pwsh --config 'C:\Users\jarno\.config\oh-my-posh\.tokyo-night.omp.json' | Invoke-Expression
 
-oh-my-posh init pwsh --config 'C:\Users\jarno\.config\oh-my-posh\.BWtheme.omp.json' | Invoke-Expression
+
+clear
