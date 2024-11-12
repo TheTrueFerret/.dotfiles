@@ -12,8 +12,6 @@ everything inside this dotfile is in the Theme **Tokyo Night**.
 
 ![Example Config2](/Examples/Screenshot2024-11-12165246.png)
 
-![Example Config3](/Examples/Screenshot2024-11-12165358.png)
-
 
 ## Window Manager: **GlazeWM** and **Zebar**
 I turn the default windows taskbar to automatically hide, some people like it turned of permenantly but this is fine for me...
