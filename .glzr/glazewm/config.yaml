@@ -27,7 +27,7 @@ gaps:
 
   # Gap between windows and the screen edge.
   outer_gap:
-    top: '36px'
+    top: '6px'
     right: '6px'
     bottom: '6px'
     left: '6px'
@@ -106,7 +106,7 @@ workspaces:
   # Podcasts
   - name: '6'
     display_name: '6'
-    bind_to_monitor: 3
+    bind_to_monitor: 1
     keep_alive: true
 
   # Communication
