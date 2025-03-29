@@ -105,7 +105,7 @@ workspaces:
 
   # Podcasts
   - name: '6'
-    display_name: '6-Browser'
+    display_name: '6'
     bind_to_monitor: 3
     keep_alive: true
 
@@ -285,8 +285,8 @@ keybindings:
   # Launch CMD terminal. Alternatively, use `shell-exec wt` or
   # `shell-exec %ProgramFiles%/Git/git-bash.exe` to start Windows
   # Terminal and Git Bash respectively.
-  - commands: ['shell-exec cmd']
-    bindings: ['alt+enter']
+  # - commands: ['shell-exec cmd']
+  #  bindings: ['alt+enter']
 
   # Focus the next/previous workspace defined in `workspaces` config.
   - commands: ['focus --next-workspace']

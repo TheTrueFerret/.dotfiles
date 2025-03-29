@@ -8,11 +8,12 @@
   "transparent": true,
   "defaultPlacements": [
     {
+      "name": "ferret",
       "anchor": "top_left",
       "offsetX": "0px",
       "offsetY": "0px",
       "width": "100%",
-      "height": "30px",
+      "height": "25px",
       "monitorSelection": {
         "type": "all"
       }

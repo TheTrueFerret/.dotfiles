@@ -12,7 +12,7 @@ i {
 body {
   color: rgb(255 255 255 / 90%);
   font-family: ui-monospace, monospace;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 html,
@@ -23,7 +23,7 @@ body,
 
 #root {
   border-bottom: 1px solid rgb(255 255 255 / 5%);
-  background: linear-gradient(rgb(0 0 0 / 100%), rgb(0 0 0 / 90%));
+  background: linear-gradient(rgb(0 0 0 / 70%), rgb(0 0 0 / 60%));
 }
 
 .app {
@@ -31,7 +31,7 @@ body,
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   height: 100%;
-  padding: 4px 1.5vw;
+  padding: 2px 1.5vw;
 }
 
 .left,
@@ -65,12 +65,12 @@ body,
 }
 
 .workspace {
-  background: rgb(255 255 255 / 5%);
+  background: rgb(255 255 255 / 10%);
   margin-right: 4px;
-  padding: 4px 8px;
-  color: rgb(255 255 255 / 90%);
+  padding: 3px 7px;
+  color: rgb(255 255 255 / 100%);
   border: none;
-  border-radius: 2px;
+  border-radius: 4px;
   cursor: pointer;
 
   &.displayed {
@@ -88,9 +88,9 @@ body,
 .tiling-direction {
   background: rgb(255 255 255 / 15%);
   color: rgb(255 255 255 / 90%);
-  border-radius: 2px;
+  border-radius: 4px;
   line-height: 1;
-  padding: 4px 8px;
+  padding: 3px 7px;
   border: 0;
   cursor: pointer;
 }
