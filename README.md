@@ -8,9 +8,9 @@ everything inside this dotfile is in the Theme **Tokyo Night**.
 
 #### Quick Showcase:
 
-![Example Config1](/Examples/Screenshot2024-11-12164730.png)
+![Example Config1](/example-images/Screenshot2024-11-12164730.png)
 
-![Example Config2](/Examples/Screenshot2024-11-12165246.png)
+![Example Config2](/example-images/Screenshot2024-11-12165246.png)
 
 
 ## Window Manager: **GlazeWM** and **Zebar**
